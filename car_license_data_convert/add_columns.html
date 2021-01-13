@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const regex = /([/1|2|3/])(.*?。|.*)/g;
+        data.forEach((d) => {
+            d.qn = d.qn.toString();
+            d.vehicle = "car";
+            d.qType = "sign";
+            d.ans = d.ans.toString();
+            
+            d.image = '';
+            if (Number(d.qn) < 10) {
+                d.image = '00' + d.qn + '.gif';   
+            } else if (Number(d.qn) < 100) {
+                d.image = '0' + d.qn + '.gif'; 
+            } else {
+                d.image = d.qn+ '.gif'; 
+            }
+
+            d.ansType = 'bool';
+            d.comments = "";
+        });
+    </script>
+</body>
+</html>
