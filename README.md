@@ -5,9 +5,9 @@ For prepare car license exam
 
 ## Demo screenshot
 
-<img src="../master/assets/Screenshot_1.jpg?raw=true" width="320">
-<img src="../master/assets/Screenshot_2.jpg?raw=true" width="320">
-<img src="../master/assets/Screenshot_3.jpg?raw=true" width="320">
+<img src="../main/assets/Screenshot_1.jpg?raw=true" width="320">
+<img src="../main/assets/Screenshot_2.jpg?raw=true" width="320">
+<img src="../main/assets/Screenshot_3.jpg?raw=true" width="320">
 
 
 ## Getting Started
